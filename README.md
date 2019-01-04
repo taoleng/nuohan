@@ -2,6 +2,8 @@
 
 > My supreme Nuxt.js project
 
+http://nohan5.cloudpool.cc/
+
 ## Build Setup
 
 ``` bash
