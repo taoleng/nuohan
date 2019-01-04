@@ -1,0 +1,661 @@
+.__nuxt-error-page .description {
+  line-height: 21PX;
+}
+.__nuxt-error-page {
+  background: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.icon-xiangyoujiaohuan::before {
+  display: none!important;
+}
+a {
+  text-decoration: none;
+  transition: .3s;
+  color: #333;
+}
+img {
+  vertical-align: top;
+}
+.gray {
+  color: #999;
+}
+body {
+  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #333;
+  cursor: pointer;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.mint-indicator-wrapper {
+  background: rgba(0, 0, 0, 0.5);
+}
+.mint-navbar .mint-tab-item.is-selected {
+  color: #dd7116 !important;
+  border-bottom: 2px solid #dd7116;
+}
+.mint-toast-text {
+  line-height: 1;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+.inner-block {
+  margin: 0 50px;
+}
+.default-margin {
+  margin-top: 120px;
+}
+.news-wrapper {
+  margin-top: 120px;
+}
+.common-submit-btn {
+  display: block;
+  text-align: center;
+  line-height: 88px;
+  color: #fff;
+  background: #dd7116;
+  margin-top: 30px;
+}
+.common-submit-btn span,
+.common-submit-btn i {
+  display: inline-block;
+  vertical-align: middle;
+}
+.order-comon-btn {
+  margin-top: 38px;
+  overflow: hidden;
+}
+.order-comon-btn li {
+  width: 48%;
+  height: 140px;
+  line-height: 140px;
+}
+.order-comon-btn li.cancel-btn {
+  float: left;
+}
+.order-comon-btn li.pay-btn {
+  float: right;
+}
+.order-comon-btn .cancel-btn {
+  text-align: center;
+  color: #999999;
+  font-size: 30px;
+  background: #f6f6f6;
+}
+.order-comon-btn .pay-btn {
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  background: #dd7116;
+}
+.order-comon-btn .pay-btn i,
+.order-comon-btn .pay-btn span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.order-detail .detail-title {
+  margin: 135px 0 70px;
+}
+.order-detail .detail-title .point {
+  color: #dd7116;
+  background: #f6f6f6;
+  padding: 20px 0;
+}
+.order-detail .detail-title .point img {
+  width: 66px;
+  margin-right: 20px;
+}
+.order-detail .detail-title .point span {
+  font-size: 56px;
+  position: relative;
+  top: 2px;
+}
+.order-detail .detail-title .point span,
+.order-detail .detail-title .point img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.order-detail .detail-title p {
+  color: #999;
+  margin-top: 30px;
+}
+.order-detail .order-item {
+  margin-bottom: 10px;
+}
+.order-detail .order-item .iconfont {
+  color: #dd7116;
+  font-size: 50px;
+}
+.order-detail .order-item .data {
+  font-size: 34px;
+  color: #dd7116;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 10px 0;
+}
+.order-detail .order-item .select-box {
+  margin-bottom: 28px;
+}
+.order-detail .order-item .select-box:last-child {
+  margin-bottom: 0;
+}
+.order-detail .order-item .select-box p {
+  margin-bottom: 10px;
+}
+.order-detail .order-item .select-box > div {
+  height: 60px;
+  line-height: 64px;
+  text-align: center;
+  background: #eeeeee;
+}
+.order-detail .order-item .select-box > div .drop {
+  float: right;
+  display: inline-block;
+  width: 24px;
+  height: 60px;
+  text-align: center;
+  background: #d2d2d2;
+}
+.order-detail .order-item .select-box > div .drop i {
+  color: #fff;
+  font-size: 16px;
+}
+.order-detail .order-item .btn-box {
+  overflow: hidden;
+  padding-bottom: 26px;
+}
+.order-detail .order-item .btn-box p {
+  margin-bottom: 10px;
+}
+.order-detail .order-item .btn-box div {
+  float: left;
+  min-width: 300px;
+  height: 60px;
+  padding: 0 10px;
+  text-align: center;
+  line-height: 63px;
+  background: #f6f6f6;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+.order-detail .order-item .btn-box div.on {
+  color: #fff;
+  background: #dd7116;
+}
+.order-detail .result {
+  margin-top: 35px;
+  padding-top: 35px;
+}
+.order-detail .result .item {
+  margin-bottom: 30px;
+}
+.order-detail .result .item .title {
+  margin-bottom: 20px;
+}
+.order-detail .result .item .title.agree {
+  color: #999999;
+}
+.order-detail .result .item .pay-num {
+  color: #dd7116;
+  font-size: 70px;
+}
+.order-detail .result .item .pay-methods {
+  margin-bottom: 60px;
+  overflow: hidden;
+}
+.order-detail .result .item .pay-methods .method {
+  float: left;
+  width: 450px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  background: #f6f6f6;
+  margin-right: 56px;
+  margin-bottom: 30px;
+  border: 1px solid #f6f6f6;
+  font-size: 0px;
+}
+.order-detail .result .item .pay-methods .method img,
+.order-detail .result .item .pay-methods .method span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.order-detail .result .item .pay-methods .method img {
+  width: 30px;
+  margin-right: 15px;
+}
+.order-detail .result .item .pay-methods .method img.paypal {
+  width: 120px;
+}
+.order-detail .result .item .pay-methods .method span {
+  font-size: 30px;
+}
+.order-detail .result .item .pay-methods .method.on {
+  border-color: #dd7116;
+}
+.order-detail .result .item .pay-methods .method:nth-child(2n) {
+  margin-right: 0px;
+}
+.order-detail .result .option-btn {
+  display: block;
+  width: 300px;
+  height: 88px;
+  line-height: 92px;
+  text-align: center;
+  color: #999999;
+  background: #f6f6f6;
+}
+.order-detail .result .option-btn.common-submit-btn {
+  color: #fff;
+  background: #dd7116;
+}
+.paycomon {
+  padding-bottom: 60px;
+}
+.paycomon .pay-methods {
+  margin-bottom: 15px !important;
+}
+.margintop50 {
+  margin-top: 50px;
+}
+.appt-common .appt-top {
+  box-sizing: border-box;
+  height: 425px;
+  background: #2e2e2e top center no-repeat;
+  background-size: cover;
+  padding-top: 310px;
+  padding-left: 50px;
+}
+.appt-common .appt-top .appt-title {
+  font-size: 60px;
+  line-height: 1;
+  font-weight: 700;
+  color: white;
+}
+.appt-common .appt-content {
+  padding-top: 40px;
+}
+.appt-common .check-box {
+  margin-bottom: 18px;
+}
+.appt-common .check-box .label {
+  line-height: 65px;
+}
+.appt-common .check-box .label i,
+.appt-common .check-box .label span {
+  display: inline-block;
+  vertical-align: middle;
+  color: #d9d9d9;
+}
+.appt-common .check-box .label i {
+  position: relative;
+  top: -2px;
+}
+.appt-common .check-box .label .line {
+  width: 1PX;
+  height: 10px;
+  background: #d9d9d9;
+  margin: 0 18px 0 12px;
+}
+.appt-common .check-box .box {
+  height: 60px;
+  line-height: 62px;
+  color: #999999;
+  background: #535353;
+  padding: 0 0 0 18px;
+}
+.appt-common .check-box .box .on {
+  color: #fff;
+}
+.appt-common .check-box .box .drop {
+  float: right;
+  display: inline-block;
+  width: 24px;
+  height: 60px;
+  text-align: center;
+  background: #eeeeee;
+}
+.appt-common .check-box .box .drop i {
+  color: #333333;
+  font-size: 16px;
+}
+.appt-common .check-box .mint-cell {
+  min-height: auto;
+  background: #535353;
+}
+.appt-common .check-box .mint-cell textarea::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #999999;
+}
+.appt-common .check-box .mint-cell textarea:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #999999;
+}
+.appt-common .check-box .mint-cell textarea::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #999999;
+}
+.appt-common .check-box .mint-cell textarea:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #999999;
+}
+.appt-common .check-box .mint-cell input::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #999999;
+}
+.appt-common .check-box .mint-cell input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #999999;
+}
+.appt-common .check-box .mint-cell input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #999999;
+}
+.appt-common .check-box .mint-cell input:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #999999;
+}
+.appt-common .check-box .mint-cell input {
+  height: 60px;
+  line-height: 62px;
+}
+.appt-common .check-box .mint-cell input,
+.appt-common .check-box .mint-cell textarea {
+  font-size: 30px;
+  color: #fff;
+  background: transparent;
+}
+.appt-common .check-box .mint-cell textarea.mint-field-core {
+  font-size: 32px;
+}
+.appt-common .check-item-box .item {
+  display: inline-block;
+  width: 200px;
+  height: 60px;
+  line-height: 64px;
+  text-align: center;
+  border: 1px solid #fff;
+  margin-right: 30px;
+}
+.appt-common .check-item-box .item.item-box-size {
+  height: auto;
+  line-height: 38px;
+  padding: 10px 0;
+}
+.appt-common .check-item-box .item.on {
+  border-color: #dd7116;
+  background: #dd7116;
+}
+.appt-common .check-item-box .item i {
+  margin-right: 10px;
+}
+.appt-common .check-item-box .item span,
+.appt-common .check-item-box .item i {
+  vertical-align: middle;
+}
+.view-img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.view-img img {
+  width: 100%;
+}
+.view-img span {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  color: #fff;
+  background: #000;
+  padding: 10px 40px;
+}
+.appointment {
+  margin-top: 120px;
+  color: #fff;
+}
+.appointment .btn-control {
+  display: flex;
+  justify-content: space-between;
+  margin: 160px 0 60px;
+}
+.appointment .btn-control .item {
+  color: #fff;
+  position: relative;
+  width: 250px;
+  height: 75px;
+  line-height: 75px;
+  border: 1px solid #ffffff;
+  padding: 0 45px;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+.appointment .btn-control .item i {
+  display: none;
+  position: absolute;
+  left: 50%;
+  bottom: -25px;
+  transform: translate(-50%);
+  line-height: 1;
+  color: #dd7116;
+}
+.appointment .btn-control .item.on {
+  color: #fff;
+  background: #dd7116;
+  border-color: #dd7116;
+}
+.appointment .btn-control .item.on i {
+  display: block;
+}
+.appointment .btn-control .item.on .dot span {
+  background: #fff;
+}
+.appointment .btn-control .item .dot {
+  position: absolute;
+  top: 25px;
+  right: 45px;
+}
+.appointment .btn-control .item .dot span {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  border-radius: 50%;
+  margin-bottom: 4px;
+}
+.appointment .mint-tab-container-item .des span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.appointment .mint-tab-container-item .des .line {
+  width: 76px;
+  height: 2px;
+  background: #fff;
+  margin-left: 10px;
+}
+.appointment .mint-tab-container-item .title {
+  font-size: 58px;
+  margin: 10px 0 26px;
+}
+.appointment .mint-tab-container-item .text {
+  line-height: 1.8;
+}
+.appointment .mint-tab-container-item .btn {
+  display: block;
+  width: 100%;
+  height: 85px;
+  text-align: center;
+  color: #fff;
+  background: #dd7116;
+  margin-top: 75px;
+  line-height: 85px;
+}
+.appointment .mint-tab-container-item .btn span,
+.appointment .mint-tab-container-item .btn i {
+  display: inline-block;
+  vertical-align: middle;
+}
+.user-title {
+  padding-top: 160px;
+}
+.user-title h1 {
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.mint-cell {
+  position: relative;
+}
+.mint-cell .mint-cell-wrapper {
+  background: none;
+}
+.mint-cell .mint-field-other {
+  position: static;
+}
+.login-wrapper {
+  background: #575858 url("../img/login.jpg") top center;
+  background-size: cover;
+  color: #fff;
+}
+.login-wrapper .sub {
+  font-size: 40px;
+  line-height: 50px;
+  border-left: 2px solid #fff;
+  margin: 60px 0;
+  padding-left: 30px;
+}
+.login-wrapper input::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: rgba(255, 255, 255, 0.45);
+}
+.login-wrapper input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: rgba(255, 255, 255, 0.45);
+}
+.login-wrapper input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: rgba(255, 255, 255, 0.45);
+}
+.login-wrapper input:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: rgba(255, 255, 255, 0.45);
+}
+.login-wrapper .mint-cell {
+  background: rgba(13, 13, 13, 0.4) !important;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+.login-wrapper .mint-cell .iconfont {
+  position: absolute;
+  top: 30px;
+  left: 28px;
+  font-size: 50px;
+}
+.login-wrapper .mint-cell .area-code {
+  position: absolute;
+  top: 38px;
+  left: 28px;
+  border-right: 1PX solid #fff;
+  padding-right: 40px;
+}
+.login-wrapper .mint-cell .mint-cell-wrapper .mint-field-core {
+  color: #fff;
+  height: 32px;
+  line-height: 1;
+  font-size: 32px;
+  background: transparent;
+  padding-left: 90px;
+}
+.login-wrapper .mint-cell.mobile .mint-field-core {
+  padding-left: 160px;
+}
+.login-wrapper .link {
+  padding: 10px 0 120px;
+}
+.login-wrapper .btn {
+  display: block;
+  font-size: 32px;
+  line-height: 88px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1PX solid #fff;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.login-wrapper .btn.theme {
+  background: #dd7116;
+  border: none;
+}
+.user-center-wrapper {
+  background: #f6f6f6;
+}
+.user-center-wrapper .base-info {
+  background: #fff;
+  margin: 95px 0 0;
+  border: 1px solid #e5e5e5;
+}
+.activity-content .check-box .input {
+  height: 80px;
+  line-height: 80px;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: #ddd;
+  width: 100%;
+}
+.activity-content .check-box .input-mobileNum {
+  width: 300px;
+}
+.activity-content .check-box .box {
+  position: relative;
+  height: 80px;
+}
+.activity-content .check-box .input-yzm {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 200px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 24px;
+  color: #ffffff;
+  background: #999999;
+}
+.field-content .city-wrapper .box {
+  width: 100%;
+  font-size: 30px;
+  box-sizing: border-box;
+  text-align: center;
+  height: 80px;
+  margin-bottom: 50px;
+  line-height: 80px;
+}
+.field-content .city-wrapper .box:last-child {
+  margin: 0;
+}
+.field-content .city-wrapper .box .drop {
+  height: 80px;
+  line-height: 85px;
+}

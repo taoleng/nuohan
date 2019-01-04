@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_877467_ebbxed5mcip.css">
+    <!--<title>诺汉咨询</title>-->
+    <style>
+      .mint-actionsheet-list{max-height:160px;overflow:auto}
+      .mint-actionsheet .mint-actionsheet-listitem,.mint-actionsheet .mint-actionsheet-button{height:48px;line-height: 48px;font-size:16px;}
+      .mint-navbar .mint-tab-item .mint-tab-item-label{font-size:14px;white-space: nowrap;}
+      .mint-navbar .mint-tab-item{padding:10px 0!important;}
+      .mint-toast .mint-toast-text{font-size:14px;}
+      .common-submit-btn i,.pay-btn i{
+        margin-right: 10px;
+        width: 30px;
+        height: 1px;
+        background: #ffffff;
+        position: relative;
+        top: 0px;}
+      .common-submit-btn i::after,.pay-btn i::after {
+         background: #ffffff;
+         display: block;
+         content: '';
+         position: absolute;
+         right: 2px;
+         bottom: -1px;
+         width: 1px;
+         height: 7px;
+        transform: rotate(-45deg);
+       }
+    </style>
+  </head>
+  <body>
+    <!--[if IE 9]><html lang="en-US" class="lt-ie9 ie9" {{ HTML_ATTRS }}><![endif]-->
+    <!--[if (gt IE 9)|!(IE)]><!--><html {{ HTML_ATTRS }}><!--<![endif]-->
+    <head>
+      {{ HEAD }}
+    </head>
+    <body {{ BODY_ATTRS }}>
+    {{ APP }}
+  </body>
+</html>
